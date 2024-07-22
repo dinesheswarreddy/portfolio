@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinesh</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: black; /* dark background */
+            color: white;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline-block;
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #ffd700; /* gold */
+        }
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        #skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            width: 100%;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.1); /* white with some transparency */
+            border: 1px solid #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            width: 22%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s;
+            color: white;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card h3 {
+            margin-top: 0;
+            color: red; /* gold */
+        }
+        .card ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            color: white;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            width: 100%;
+        }
+        footer p {
+            margin: 0.5rem 0;
+        }
+        footer a {
+            color: #ffd700; /* Link color */
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        footer a:hover {
+            color: white; /* Change link color on hover */
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 45%;
+            }
+        }
+        @media (max-width: 480px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Skills</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="skills">
+            <div class="card">
+                <h3>Languages</h3>
+                <ul>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>JAVA</li>
+                    <li>PYTHON</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Databases</h3>
+                <ul>
+                    <li>MYSQL</li>
+                    <li>NOSQL</li>
+                    <li>MONGODB</li>
+                    <li>ORACLE</li>
+                    <li>PHP</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Technologies</h3>
+                <ul>
+                    <li>ARTIFICIAL INTELLIGENCE</li>
+                    <li>MACHINE LEARNING</li>
+                    <li>DATA SCIENCE</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>MS WORD</li>
+                    <li>MS EXCEL</li>
+                    <li>MS POWERPOINT</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Dinesh Eswar Reddy</p>
+        <p>Follow me on <a href="https://instagram.com/mr.eswar_655" target="_blank">Instagram</a> and <a href="https://linkedin.com/in/dinesheswarreddy" target="_blank">LinkedIn</a></p>
+    </footer>
+</body>
+</html>

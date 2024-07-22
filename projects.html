@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+#projects {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.project-card {
+    background-color: #444;
+    border: 1px solid #555;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 80%;
+    transition: transform 0.2s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% {
+        border-color: white;
+    }
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+details {
+    background-color: #555;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Projects</h1><br>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="projects">
+            
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Hostel Management (C)</p>
+                <details>
+                    <summary>More details</summary>
+                    <p>Developed a hostel management system using C to perform operations like add, delete, view, edit.</p>
+                </details>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Financial Tracking (HTML/CSS/JS)</p>
+                <details>
+                    <summary>More details</summary>
+                    <p>Created a financial tracking web application using HTML, CSS, JS to manage financial needs.</p>
+                </details>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Marine Conservation (HTML/CSS/PHP)</p>
+                <details>
+                    <summary>More details</summary>
+                    <p>Designed an interactive web platform for marine conservation efforts using HTML, CSS, PHP.</p>
+                </details>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Dinesh Eswar Reddy</p>
+        <p>Follow me on <a href="https://instagram.com/mr.eswar_655" target="_blank">Instagram</a> and <a href="https://linkedin.com/in/dinesheswarreddy" target="_blank">LinkedIn</a></p>
+    </footer>
+</body>
+</html>

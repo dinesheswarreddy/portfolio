@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinesh</title>
+    <style>
+        body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color:black;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline-block;
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #ffd700;
+        }
+        .main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+        }
+        .text {
+            text-align: left;
+            margin-right: 100px;
+        }
+        .hello, .name {
+            font-size: 8em;
+            margin: 0;
+        }
+        .name {
+            color: red;
+        }
+        .image {
+            margin-left: 200px;
+        }
+        img {
+            width: auto;
+            height: 100%;
+            max-height: 100vh;
+        }
+        footer {
+            background-color:black;
+            color:white;
+            text-align: center;
+            padding: 1rem;
+            width: 100%;
+        }
+        footer p {
+            margin: 0.5rem 0;
+        }
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        footer a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="text">
+                <div class="hello" style="text-align: center;">Hello.</div>
+                <div class="name" style="text-align: center;">I am </div>
+                <div class="name" style="text-align: center;">Dinesh </div>
+            </div>
+            <div class="image">
+                <img src="dinesh.jpeg" alt="Dinesh">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Dinesh</p>
+        <p>Follow me on <a href="https://instagram.com/mr.eswar_655" target="_blank">Instagram</a> and <a href="https://linkedin.com/in/dinesheswarreddy" target="_blank">LinkedIn</a></p>
+    </footer>
+</body>
+</html>
